@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragment.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/madhuphoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/madhu"/>
+
+    <TextView
+        android:id="@+id/txtProfile"
+        android:layout_below="@+id/madhuphoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/madhu_purty"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:textColor="@color/colorPrimary"/>
+    <TextView
+        android:id="@+id/txtclg"
+        android:layout_below="@+id/txtProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Student of NIT BHOPAL (M P)"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:textColor="@color/colorPrimary"/>
+    <TextView
+        android:id="@+id/txtbatcy"
+        android:layout_below="@+id/txtclg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Batch 2017-2020"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:textColor="@color/colorPrimary"/>
+</RelativeLayout>
